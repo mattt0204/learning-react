@@ -1,5 +1,5 @@
 'use strict';
-
+const LoadablePlugin = require('@loadable/webpack-plugin');
 const fs = require('fs');
 const path = require('path');
 const webpack = require('webpack');
@@ -513,6 +513,7 @@ module.exports = function(webpackEnv) {
       ]
     },
     plugins: [
+      new LoadablePlugin(),
       // Generates an `index.html` file with the <script> injected.
       new HtmlWebpackPlugin(
         Object.assign(
