@@ -106,6 +106,6 @@ app.use(serve); // 순서가 중요합니다. serverRender보다 전에 위치�
 
 app.use(serverRender);
 // 4000 포트로 서버를 가동합니다.
-app.listen(4000, () => {
-  console.log('Running on http://localhost:4000');
+app.listen(5000, () => {
+  console.log('Running on http://localhost:5000');
 });
