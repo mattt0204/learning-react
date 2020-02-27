@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+}
+
+/* classname="App" 내부의 className="logo" 가르키는 태그 */
+.App .logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* className="App" 내부의 header 태그 */
+.App header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+/* App 안의 a 태그 */
+.App a {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
