@@ -1,0 +1,15 @@
+@import '~open-color/open-color';
+@import '~include-media/dist/include-media';
+$red: #fa5252;
+$oragne: #fd7e14;
+$yellow: #ccbb33;
+$green: #69d025;
+$blue: #12bdb9;
+$indigo: #3311bb;
+$violet: #442299;
+
+@mixin square($size) {
+  $calculated: 32px * $size;
+  width: $calculated;
+  height: $calculated;
+}
