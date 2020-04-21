@@ -13,7 +13,7 @@ export const insert = createAction(INSERT, text => ({
   done: false
 }));
 export const toggle = createAction(TOGGLE, id => id);
-export const remove = createAction(REMOVE, id => id);
+export const remove = createAction(REMOVE);
 
 const initialState = {
   input: '',
